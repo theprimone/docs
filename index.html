@@ -3,31 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="keywords"
-      content="antd,umi,umijs,ant design,docs, Ant Design"
-    />
-    <meta
-      name="description"
-      content="
-      开箱即用的文档解决方案。"
-    />
+    <meta name="keywords" content="docs, playground" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     />
-    <title>Docs</title>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="/umi.c9b673c3.css" />
+    <title>Playground</title>
+    <link rel="icon" href="/playground/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/playground/umi.c6e188e6.css" />
     <script>
-      window.routerBase = "/";
+      window.routerBase = "/playground";
+    </script>
+    <script>
+      window.publicPath = window.resourceBaseUrl || "/playground/";
     </script>
     <script>
       //! umi version: 3.3.1
     </script>
   </head>
   <body>
-    <noscript>Out-of-the-box docs solution!</noscript>
+    <noscript>🎨 Code playground of React and Typescript.</noscript>
     <div id="root">
       <style>
         html,
@@ -38,7 +33,7 @@
           padding: 0;
         }
         #root {
-          background-image: url("/home_bg.png");
+          background-image: url("/playground/home_bg.png");
           background-repeat: no-repeat;
           background-size: 100% auto;
         }
@@ -194,7 +189,7 @@
           min-height: 420px;
         "
       >
-        <img src="/pro_icon.svg" alt="logo" width="256" />
+        <img src="/playground/icons/icon-512x512.png" alt="logo" width="256" />
         <div class="page-loading-warp">
           <div class="ant-spin ant-spin-lg ant-spin-spinning">
             <span class="ant-spin-dot ant-spin-dot-spin"
@@ -206,16 +201,11 @@
         <div
           style="display: flex; align-items: center; justify-content: center"
         >
-          <img
-            src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
-            width="32"
-            style="margin-right: 8px"
-          />
-          Docs
+          Playground
         </div>
       </div>
     </div>
 
-    <script src="/umi.84d4edf2.js"></script>
+    <script src="/playground/umi.4ec17dcb.js"></script>
   </body>
 </html>
