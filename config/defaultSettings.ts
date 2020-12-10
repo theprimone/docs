@@ -5,17 +5,17 @@ type DefaultSettings = Partial<ProSettings> & {
 };
 
 const proSettings: DefaultSettings = {
-  navTheme: 'dark',
-  // 拂晓蓝
-  primaryColor: '#1890ff',
+  navTheme: 'light',
+  primaryColor: '#FAAD14',
   layout: 'side',
   contentWidth: 'Fluid',
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: 'Docs',
+  title: 'Playground',
   pwa: false,
   iconfontUrl: '',
+  splitMenus: false,
 };
 
 export type { DefaultSettings };

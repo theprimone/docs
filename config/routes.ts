@@ -21,6 +21,12 @@
                 component: './Welcome',
               },
               {
+                path: '/demo',
+                name: 'demo',
+                icon: 'star',
+                component: './Demo',
+              },
+              {
                 component: './404',
               },
             ],

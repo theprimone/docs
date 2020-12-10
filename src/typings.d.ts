@@ -26,6 +26,7 @@ interface Window {
     hitType: 'event' | 'pageview',
     fieldsObject: GAFieldsObject | string,
   ) => void;
+  publicPath: string;
   reloadAuthorized: () => void;
 }
 
