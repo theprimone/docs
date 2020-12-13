@@ -2,6 +2,6 @@
 
 <div align="center">
 
-🎨 Code playground of React and Typescript.
+🎨 Code playground of React and Typescript, based on ant design pro.
 
 </div>
